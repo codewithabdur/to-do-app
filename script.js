@@ -40,7 +40,7 @@ listContainer.addEventListener("click", function(e){
 },false);
 
 function saveData(){
-    localStorage.setItem("data", list-container.innerHTML)
+    localStorage.setItem("data", listContainer.innerHTML)
 }
 
 function showTask(){
